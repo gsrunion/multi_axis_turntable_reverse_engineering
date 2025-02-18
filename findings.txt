@@ -1,0 +1,19 @@
+Discovery data from running some of the example scripts from https://github.com/hbldh/bleak/tree/master/examples
+
+# python discover.py
+
+20:23:13:00:20:E4: Turntable_008420
+-----------------------------------
+AdvertisementData(local_name='Turntable_008420', service_uuids=['0000fff0-0000-1000-8000-00805f9b34fb'], rssi=-51)
+
+# python .\service_explorer.py --address 20:23:13:00:20:E4
+
+2025-02-17 20:15:57,788 __main__ INFO: starting scan...
+2025-02-17 20:15:59,595 __main__ INFO: connecting to device...
+2025-02-17 20:16:01,163 __main__ INFO: connected
+2025-02-17 20:16:01,163 __main__ INFO: [Service] 0000fff0-0000-1000-8000-00805f9b34fb (Handle: 1): Vendor specific
+2025-02-17 20:16:01,164 __main__ INFO:   [Characteristic] 0000fff2-0000-1000-8000-00805f9b34fb (Handle: 2): Vendor specific (write-without-response,write), Max write w/o rsp size: 244
+2025-02-17 20:16:01,339 __main__ INFO:   [Characteristic] 0000fff1-0000-1000-8000-00805f9b34fb (Handle: 4): Vendor specific (read,write-without-response,write,notify), Value: bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), Max write w/o rsp size: 244
+2025-02-17 20:16:01,516 __main__ INFO:     [Descriptor] 00002902-0000-1000-8000-00805f9b34fb (Handle: 6): Client Characteristic Configuration, Value: bytearray(b'\x00\x00')
+2025-02-17 20:16:01,516 __main__ INFO: disconnecting...
+2025-02-17 20:16:04,704 __main__ INFO: disconnected
