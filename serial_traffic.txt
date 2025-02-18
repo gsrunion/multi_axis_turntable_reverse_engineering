@@ -1,0 +1,63 @@
+PS C:\Users\steve\Desktop\pyble> python .\uart_service.py
+Connected, start typing and press ENTER...
+?
+sent: b'?\r\n'
+received: bytearray(b'?\rERR3\n')
+?
+sent: b'?\r\n'
+received: bytearray(b'?\rERR3\n')
+hello\
+sent: b'hello\\\r\n'
+received: bytearray(b'hello\\\rERR1\n')
+.
+sent: b'.\r\n'
+received: bytearray(b'.\rERR1\n')
+1
+sent: b'1\r\n'
+received: bytearray(b'1\rERR1\n')
+2
+sent: b'2\r\n'
+2
+sent: b'2\r\n'
+
+sent: b'\r\n'
+received: bytearray(b'\r\rERR1\n')
+3
+sent: b'3\r\n'
+
+sent: b'\r\n'
+received: bytearray(b'\r\rERR1\n')
+4
+sent: b'4\r\n'
+received: bytearray(b'4\rERR1\n')
+5
+sent: b'5\r\n'
+received: bytearray(b'5\rERR1\n')
+6
+sent: b'6\r\n'
+received: bytearray(b'6\rERR1\n')
+7
+sent: b'7\r\n'
+received: bytearray(b'7\rERR1\n')
+8
+sent: b'8\r\n'
+received: bytearray(b'8\rERR1\n')
+9
+sent: b'9\r\n'
+received: bytearray(b'9\rERR1\n')
+10
+sent: b'10\r\n'
+received: bytearray(b'10\rERR1\n')
+1,225
+sent: b'1,225\r\n'
+received: bytearray(b'1,225\rERR1\n')
+
+
+
+
+
+
+
+
+
+
